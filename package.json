@@ -1,0 +1,29 @@
+{
+  "name": "tailwindcss-tables",
+  "version": "0.1.0",
+  "description": "Bootstrap styled tables for Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drehimself/tailwindcss-tables.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "tailwind-css",
+    "tailwindcss-plugin",
+    "bootstrap",
+    "bootstrap-table",
+    "tailwindcss-table",
+    "tailwind-table"
+  ],
+  "author": "Andre Madarang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drehimself/tailwindcss-tables/issues"
+  },
+  "homepage": "https://github.com/drehimself/tailwindcss-tables#readme"
+}
