@@ -30,6 +30,13 @@ module.exports = function (options) {
           ? '1px solid ' + options.tableBorderColor
           : '1px solid #dee2e6',
         },
+        'td': {
+           borderTop: optionsWithPropertyExists(options, 'tableBodyBorder') && options.tableBodyBorder == false
+            ? 0
+            : optionsWithPropertyExists(options, 'tableBorderColor')
+            ? '1px solid ' + options.tableBorderColor
+            : '1px solid #dee2e6',
+        },
         'thead th': {
           verticalAlign: 'bottom',
           borderBottom: optionsWithPropertyExists(options, 'tableBorderColor')
