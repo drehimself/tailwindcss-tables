@@ -72,11 +72,11 @@ You can now use any of [bootstrap's table classes](https://getbootstrap.com/docs
 
 #### Using Tailwind's utilities
 
-You are free to use Tailwind's utilities to customize the table.
+You are free to use Tailwind's utilities to customize the table. Works with Tailwind v1.0 or pre Tailwind v1.0. Just adjust your class names.
 
 ```html
 <table class="table">
-  <thead class="bg-blue text-white">
+  <thead class="bg-blue-500 text-white">
     <tr>
       <th scope="col">#</th>
       <th scope="col">First</th>
@@ -94,7 +94,7 @@ You are free to use Tailwind's utilities to customize the table.
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
-      <td class="bg-red text-white">Thornton</td>
+      <td class="bg-red-500 text-white">Thornton</td>
       <td>@fat</td>
     </tr>
     <tr>
