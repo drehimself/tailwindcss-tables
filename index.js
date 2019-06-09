@@ -25,7 +25,7 @@ module.exports = function (options) {
         backgroundColor: 'transparent',
         'td,th': {
           padding: optionsWithPropertyExists(options, 'cellPadding') ? options.cellPadding : '.75rem',
-          verticalAlign: 'top',
+          verticalAlign: optionsWithPropertyExists(options, 'verticalAlign') ? options.verticalAlign : 'top',
           borderTop: optionsWithPropertyExists(options, 'tableBorderColor')
           ? '1px solid ' + options.tableBorderColor
           : '1px solid #dee2e6',
