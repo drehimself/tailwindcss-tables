@@ -31,7 +31,7 @@ module.exports = function (options) {
           : '1px solid #dee2e6',
         },
         'td': {
-           borderTop: optionsWithPropertyExists(options, 'tableBodyBorder') && options.tableBodyBorder == false
+          borderTop: optionsWithPropertyExists(options, 'tableBodyBorder') && options.tableBodyBorder == false
             ? 0
             : optionsWithPropertyExists(options, 'tableBorderColor')
             ? '1px solid ' + options.tableBorderColor
