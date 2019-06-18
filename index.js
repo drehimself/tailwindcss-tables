@@ -197,6 +197,9 @@ module.exports = function (options) {
       '.table-responsive>.table-bordered': {
         border: '0',
       },
+      '.table-borderless tbody+tbody,.table-borderless td,.table-borderless th,.table-borderless thead th': {
+        border: '0',
+      },
       '@media (max-width:575.98px)': {
         '.table-responsive-sm': {
           display: 'block',
