@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-tables",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Bootstrap styled tables for Tailwind CSS",
   "main": "index.js",
   "scripts": {
